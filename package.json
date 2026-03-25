@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:ui": "playwright test",
+    "test:ui:headed": "playwright test --headed",
+    "test:ui:login": "playwright test 05-automation/tests/login.spec.js"
   },
   "keywords": [],
   "author": "",
@@ -11,5 +14,8 @@
   "description": "",
   "dependencies": {
     "playwright": "^1.58.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
   }
 }
