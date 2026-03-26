@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:ui": "playwright test",
     "test:ui:headed": "playwright test --headed",
-    "test:ui:login": "playwright test 05-automation/tests/login.spec.js"
+    "test:ui:login": "playwright test 05-automation/tests/login.spec.js",
+    "test:ui:invalid-login": "playwright test 05-automation/tests/invalid-login.spec.js"
   },
   "keywords": [],
   "author": "",
